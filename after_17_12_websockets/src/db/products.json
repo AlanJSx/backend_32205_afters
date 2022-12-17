@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Segundo prod",
+    "description": "primer producto guardado",
+    "price": 300,
+    "code": "CLS124",
+    "id": 1
+  },
+  {
+    "title": "Segundo prod",
+    "description": "primer producto guardado",
+    "price": 300,
+    "code": "CLS1224",
+    "id": 2
+  }
+]

@@ -1,0 +1,47 @@
+<div>
+    {{!-- <form action="/api/products" method="POST"> --}}
+        <form id="create-product-form">
+            <input type="text" name="title" placeholder="Título" />
+            <input type="text" name="description" placeholder="Descripción" />
+            <input type="number" name="price" placeholder="Precio" />
+            <input type="text" name="code" placeholder="Ingrese el código del prod" />
+            <input type="submit" value="Enviar!" />
+        </form>
+</div>
+
+<div>
+
+    <h1 class="title">Lista de productos (En tiempo real)</h1>
+    <table class="product-list">
+        <tr>
+            <th>Título</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Miniatura</th>
+        </tr>
+
+        <tbody id="products-table-body">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .product-list {
+        width: 100%;
+    }
+</style>
+
+<script src="js/main.js"></script>
